@@ -39,6 +39,7 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 app.get('/project/:id', project.view);
 app.get('/grid/:id', index.viewGrid);
+app.get('/grid/:id', index.viewGrid);
 // Example route
 // app.get('/users', user.list);
 
